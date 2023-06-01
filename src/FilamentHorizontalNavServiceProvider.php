@@ -1,13 +1,13 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace MwakalingaJohn\FilamentHorizontalNav;
 
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 
-class SkeletonServiceProvider extends PluginServiceProvider
+class FilamentHorizontalNavServiceProvider extends PluginServiceProvider
 {
-    public static string $name = 'skeleton';
+    public static string $name = 'filament-horizontal-nav';
 
     protected array $resources = [
         // CustomResource::class,
@@ -22,15 +22,15 @@ class SkeletonServiceProvider extends PluginServiceProvider
     ];
 
     protected array $styles = [
-        'plugin-skeleton' => __DIR__.'/../resources/dist/skeleton.css',
+        'plugin-filament-horizontal-nav' => __DIR__.'/../resources/dist/filament-horizontal-nav.css',
     ];
 
     protected array $scripts = [
-        'plugin-skeleton' => __DIR__.'/../resources/dist/skeleton.js',
+        'plugin-filament-horizontal-nav' => __DIR__.'/../resources/dist/filament-horizontal-nav.js',
     ];
 
     // protected array $beforeCoreScripts = [
-    //     'plugin-skeleton' => __DIR__ . '/../resources/dist/skeleton.js',
+    //     'plugin-filament-horizontal-nav' => __DIR__ . '/../resources/dist/filament-horizontal-nav.js',
     // ];
 
     public function configurePackage(Package $package): void

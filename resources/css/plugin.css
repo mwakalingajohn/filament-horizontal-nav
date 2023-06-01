@@ -1,1 +1,6 @@
 @tailwind utilities;
+
+.filament-sidebar-nav{
+    @apply w-screen !important;
+    @apply bg-red-800 !important;
+}

@@ -3,7 +3,9 @@
 }
 
 .filament-sidebar-nav {
-  width: 100vw !important;
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity)) !important
+  width: 100vw !important
+}
+
+aside {
+  overflow: visible !important
 }

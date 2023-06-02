@@ -7,5 +7,14 @@
 }
 
 aside {
-  overflow: visible !important
+  overflow: visible !important;
+  --tw-shadow: 0 0 #0000 !important;
+  --tw-shadow-colored: 0 0 #0000 !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  border-right-width: 0px !important
+}
+
+aside > nav > ul > li > ul {
+  flex-direction: row !important;
+  display: flex !important
 }

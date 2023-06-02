@@ -6,4 +6,11 @@
 
 aside {
     @apply overflow-visible !important;
+    @apply shadow-none !important;
+    @apply border-r-0 !important;
+}
+
+aside > nav > ul > li > ul {
+    @apply flex-row !important;
+    @apply flex !important;
 }
